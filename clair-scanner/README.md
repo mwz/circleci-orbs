@@ -75,7 +75,6 @@ Parameters:
 ### Scan a public image
 
 ```yaml
-
 version: 2.1
 
 orbs:
