@@ -7,7 +7,6 @@ executors:
     docker:
       - image: ovotech/clair-scanner:latest
 
-
 commands:
   scan:
     description: "Scan an image for vulnerabilities"
