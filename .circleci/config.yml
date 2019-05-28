@@ -8,14 +8,14 @@ jobs:
     executor: clair_scanner/default
     steps:
     - clair_scanner/scan:
-        image: debian:wheezy
+        image: openjdk:9-b135
         fail_on_discovered_vulnerabilities: false
 
   scan_images:
     executor: clair_scanner/default
     steps:
     - clair_scanner/scan:
-        image: debian:wheezy
+        image: openjdk:9-b135
 
 workflows:
   test:
