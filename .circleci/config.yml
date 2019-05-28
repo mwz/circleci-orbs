@@ -17,6 +17,7 @@ jobs:
     - clair_scanner/scan:
         image: debian:wheezy
 
+
 workflows:
   test:
     jobs:
